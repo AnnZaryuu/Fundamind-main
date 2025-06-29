@@ -1,39 +1,38 @@
+<?php
+$quests = [
+  1 => [
+    'title' => 'Echoes of Javanese Wisdom',
+    'questions' => [
+      [
+        'question' => 'Apa nama aksara kuno yang digunakan dalam kitab Jawa?',
+        'options' => ['Hanacaraka', 'Katakana', 'Hieroglif', 'Sanskerta'],
+        'answer' => 0
+      ],
+      [
+        'question' => 'Apa arti filosofi “Ojo Dumeh”?',
+        'options' => ['Jangan egois', 'Jangan sombong', 'Jangan menyerah', 'Jangan lupa'],
+        'answer' => 1
+      ]
+    ]
+  ]
+];
+
+$id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
+$quest = $quests[$id] ?? null;
+
+if (!$quest) {
+  echo "<h1>Quest tidak ditemukan!</h1>";
+  exit;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
   <title><?= htmlspecialchars($quest['title']) ?></title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body {
-      background-color: #fef9e4;
-      font-family: 'PixelifySans', sans-serif;
-      padding: 40px;
-      color: #333;
-    }
-    .quiz-container {
-      background-color: #fff;
-      border: 4px solid #d2a679;
-      border-radius: 12px;
-      padding: 30px;
-      max-width: 800px;
-      margin: auto;
-      box-shadow: 0 0 20px rgba(0,0,0,0.2);
-    }
-    h1, h3 {
-      text-align: center;
-      margin-bottom: 24px;
-    }
-    .question-block {
-      margin-bottom: 24px;
-    }
-    .btn-submit {
-      display: block;
-      margin: 32px auto 0;
-      padding: 12px 24px;
-      font-weight: bold;
-    }
-  </style>
+  <link rel="stylesheet" href="../assets/css/mulai-quest.css">
 </head>
 <body>
 

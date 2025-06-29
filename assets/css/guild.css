@@ -118,7 +118,7 @@ body {
 }
 
 .quest-card {
-  background: url("../images/wood_texture_pixel.png") no-repeat center center;
+  background: url("../images/parchment_texture.jpg") no-repeat center center;
   background-size: cover;
   border: 2px solid #deb887;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
