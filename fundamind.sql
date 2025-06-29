@@ -117,7 +117,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id_user`, `username`, `password`, `avatar`, `bio`, `level`, `xp`, `xp_next`, `coin`) VALUES
 (1, 'alfan', '$2y$10$eNcym8v.DSFaXEAomZHsreZ7PAoT0H.u91aedYnV5cS5Tb9IFj0V.', 'Ellipse_4.png', 'Fundamind is an innovative platform dedicated to revolutionizing digital education through gamified learning experiences. With a team of passionate educators and game developers, we create immersive environments where knowledge meets entertainment. Our mission is to make learning addictive by combining educational rigor with engaging gameplay mechanics. Since our founding in 2022, we\'ve helped over 50,000 users worldwide level up their skills in programming, design, and critical thinking. We believe education should be as compelling as your favorite video game, which is why we\'ve developed proprietary learning algorithms that adapt to each user\'s progress. Join our growing community of lifelong learners and start your knowledge adventure today!', 1, 0, 100, 85),
-(2, 'gayuh', '$2y$10$wfBKoyfoWxNp0hDHZ7SdMOQAIszNO7DDX0xtvuL0CFmg/1XwxmH7S', 'Ellipse_2.png', 'dda', 2, 0, 100, 0);
+(2, 'AnnZaryuu', '$2y$10$wfBKoyfoWxNp0hDHZ7SdMOQAIszNO7DDX0xtvuL0CFmg/1XwxmH7S', 'Ellipse_2.png', '俺は英雄でもない。悪でもない。ただ、静かな知の回廊を彷徨う旅人だ', 2, 0, 100, 0);
 
 -- --------------------------------------------------------
 
