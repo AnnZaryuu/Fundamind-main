@@ -15,8 +15,8 @@
       <div class="layer2"></div>
       <div class="layer3"></div>
       <div class="layer4">
-        <h2 class="desc1">"Empower Your Mind With The Basics!"</h2>
-        <h3 class="desc2">up level of your knowledge with guild quest</h3>
+        <h2 class="desc1">"Asah Kecerdasanmu dari Dasar!"</h2>
+        <h3 class="desc2">Jelajahi dunia pengetahuan melalui Quest dari Serikat.</h3>
       </div>
     </div>
     <div class="gradient-transition-1"></div>

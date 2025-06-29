@@ -10,13 +10,13 @@
       <!-- Navigation items -->
       <ul class="navbar-nav mb-2 mb-lg-0 gap-3">
         <li class="nav-item">
-          <a class="nav-link text-secondary fs-6 fw-normal" href="guild.php">Guild</a> <!-- Changed to text-secondary and fw-normal -->
+          <a class="nav-link text-secondary fs-6 fw-normal" href="guild.php">Serikat</a> <!-- Changed to text-secondary and fw-normal -->
         </li>
         <li class="nav-item">
-          <a class="nav-link text-secondary fs-6 fw-normal" href="shop.php">Shop</a>
+          <a class="nav-link text-secondary fs-6 fw-normal" href="shop.php">Toko</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-secondary fs-6 fw-normal" href="profile.php">Profile</a>
+          <a class="nav-link text-secondary fs-6 fw-normal" href="profile.php">Profil</a>
         </li>
       </ul>
 
